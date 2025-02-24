@@ -1,0 +1,10 @@
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libactix_rt-4005d4501d47de91.rmeta: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/arbiter.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/runtime.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/system.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libactix_rt-4005d4501d47de91.rlib: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/arbiter.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/runtime.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/system.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/actix_rt-4005d4501d47de91.d: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/arbiter.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/runtime.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/system.rs
+
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/lib.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/arbiter.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/runtime.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-rt-2.10.0/src/system.rs:

@@ -1,0 +1,10 @@
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libhumantime-e77423825a8291b2.rmeta: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/duration.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/wrapper.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/date.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libhumantime-e77423825a8291b2.rlib: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/duration.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/wrapper.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/date.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/humantime-e77423825a8291b2.d: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/duration.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/wrapper.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/date.rs
+
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/lib.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/duration.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/wrapper.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/humantime-2.1.0/src/date.rs:

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f610851b-075c-4d6a-bc09-a419b79818bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../coraool/trend-util/overlap.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn-diesel/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn-diesel/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn-diesel/src/models.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn-diesel/src/user.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/app/mall/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/app/mall/product.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/app/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/bootstrap/error.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/bootstrap/mall.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/bootstrap/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/bootstrap/response.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/config/app.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/config/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/routes/mall.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newbee-mall-api-rs/src/routes/mod.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleUserHome" value="/opt/gradle/gradle-3.4.1" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="1HjYGzFf" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2tUfrCRyqDXMPT56zjQ6ypwQ6Sg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Run cargo-generate-service.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wufei/www/rust/cargo-generate-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Cargo.Run cargo-generate-service">
+    <configuration name="Run cargo-generate-service" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package cargo-generate-service --bin cargo-generate-service" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test cargo-generate-service" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="test --workspace" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f610851b-075c-4d6a-bc09-a419b79818bd" name="Changes" comment="" />
+      <created>1740411770622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740411770622</updated>
+      <workItem from="1740411772483" duration="1393000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

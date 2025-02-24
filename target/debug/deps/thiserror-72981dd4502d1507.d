@@ -1,0 +1,10 @@
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libthiserror-72981dd4502d1507.rmeta: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/aserror.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/display.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/var.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libthiserror-72981dd4502d1507.rlib: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/aserror.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/display.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/var.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/thiserror-72981dd4502d1507.d: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/aserror.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/display.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/var.rs
+
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/lib.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/aserror.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/display.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/thiserror-2.0.11/src/var.rs:

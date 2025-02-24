@@ -1,0 +1,10 @@
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libactix_codec-efe701606a6408e7.rmeta: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/bcodec.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/framed.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lines.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libactix_codec-efe701606a6408e7.rlib: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/bcodec.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/framed.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lines.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/actix_codec-efe701606a6408e7.d: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/bcodec.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/framed.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lines.rs
+
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lib.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/bcodec.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/framed.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/actix-codec-0.5.2/src/lines.rs:

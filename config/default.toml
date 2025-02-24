@@ -1,0 +1,20 @@
+[generate]
+allowed_templates = [
+    "https://github.com/wufly632/java-template",
+    "gitlab:myorg/*"
+]
+max_project_size = "10MB"
+timeout_seconds = 30
+default_target_dir = "/Users/wufei/www/rust/cargo-generate-service"
+
+[codeup]
+default_repo_prefix = "https://codeup.aliyun.com/coraool/"
+allowed_domains = ["codeup.aliyun.com"]
+max_retries = 3
+
+[security]
+allowed_directories = ["/Users/wufei/www/rust/cargo-generate-service"]
+
+[rate_limit]
+requests_per_second = 2
+burst_capacity = 5

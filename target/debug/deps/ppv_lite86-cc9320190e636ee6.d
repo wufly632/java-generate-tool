@@ -1,0 +1,10 @@
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libppv_lite86-cc9320190e636ee6.rmeta: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/soft.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/types.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/generic.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/libppv_lite86-cc9320190e636ee6.rlib: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/soft.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/types.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/generic.rs
+
+/Users/wufei/www/rust/cargo-generate-service/target/debug/deps/ppv_lite86-cc9320190e636ee6.d: /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/lib.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/soft.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/types.rs /Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/generic.rs
+
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/lib.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/soft.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/types.rs:
+/Users/wufei/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-e791a3f93f26854f/ppv-lite86-0.2.20/src/generic.rs:
