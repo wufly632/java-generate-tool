@@ -1,11 +1,11 @@
 // src/main.rs
-use actix_web::{web, App, HttpServer, middleware::Logger};
-use actix_governor::Governor;
+use clap::Parser;
 
 mod handlers;
 mod configs;
 mod git;
 mod security;
+mod cli;
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
@@ -15,20 +15,20 @@ async fn main() -> std::io::Result<()> {
 
     let app_config = configs::load_config().expect("Failed to load config");
     
-    HttpServer::new(move || {
-        let governor_conf = actix_governor::GovernorConfigBuilder::default()
-            .per_second(app_config.rate_limit.requests_per_second)
-            .burst_size(app_config.rate_limit.burst_capacity)
-            .finish()
-            .unwrap();
-
-        App::new()
-            .app_data(web::Data::new(app_config.clone()))
-            .wrap(Logger::default())
-            .wrap(Governor::new(&governor_conf))
-            .service(web::resource("/api/generate").to(handlers::generate_project))
-    })
-    .bind(("0.0.0.0", 8080))?
-    .run()
-    .await
+    let cli = cli::Cli::parse();
+    match cli.command {
+        cli::Commands::Generate(args) => {
+            let request = args.into_request();
+            match handlers::handle_generate_project(request, &app_config).await {
+                Ok(_) => {
+                    println!("Project generated successfully");
+                    Ok(())
+                }
+                Err(e) => {
+                    eprintln!("Error generating project: {}", e);
+                    std::process::exit(1);
+                }
+            }
+        }
+    }
 }

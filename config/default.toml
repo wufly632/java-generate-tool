@@ -1,10 +1,10 @@
 [generate]
 allowed_templates = [
-    "https://github.com/wufly632/java-template"
+    "https://gitee.com/wufly/java-template.git"
 ]
 max_project_size = "10MB"
 timeout_seconds = 30
-default_target_dir = "/Users/wufei/www/rust/cargo-generate-service"
+default_target_dir = "/Users/wufei/www/rust/cargo-generate-service/output"
 
 [codeup]
 default_repo_prefix = "https://codeup.aliyun.com/coraool/"

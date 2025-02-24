@@ -28,6 +28,13 @@ pub async fn push_to_codeup(
 
     let branch_string = branch.to_string();
 
+    // 清理已存在的git配置
+    let _ = Command::new("rm")
+        .current_dir(project_path)
+        .args(["-rf", ".git"])
+        .status()
+        .await;
+
     let commands = [
         ("init", vec![]),
         ("config", vec!["user.name", "flynn"]),
@@ -51,6 +58,54 @@ pub async fn push_to_codeup(
         if !status.success() {
             return Err(format!("Git command failed: git {}", cmd));
         }
+    }
+
+    Ok(())
+}
+
+pub async fn clone_template(template_url: &str, target_dir: &Path, branch: &str) -> Result<(), String> {
+    log::info!("Cloning template from {} to {:?}", template_url, target_dir);
+
+    // 清理已存在的git配置
+    let _ = Command::new("rm")
+        .current_dir(target_dir)
+        .args(["-rf", ".git"])
+        .status()
+        .await;
+
+    let status = Command::new("git")
+        .arg("clone")
+        .arg("--branch")
+        .arg(branch)
+        .arg(template_url)
+        .arg(target_dir)
+        .status()
+        .await
+        .map_err(|e| format!("Failed to clone template: {}", e))?;
+
+    if !status.success() {
+        return Err("Failed to clone template repository".into());
+    }
+
+    Ok(())
+}
+
+pub async fn setup_codeup_remote(target_dir: &Path, repo_url: &str, config: &CodeupConfig) -> Result<(), String> {
+    // 验证仓库地址
+    validate_repo_url(repo_url, config)?;
+
+    let status = Command::new("git")
+        .current_dir(target_dir)
+        .arg("remote")
+        .arg("add")
+        .arg("origin")
+        .arg(repo_url)
+        .status()
+        .await
+        .map_err(|e| format!("Failed to setup remote: {}", e))?;
+
+    if !status.success() {
+        return Err("Failed to setup remote repository".into());
     }
 
     Ok(())
