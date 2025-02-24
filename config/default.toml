@@ -1,7 +1,6 @@
 [generate]
 allowed_templates = [
-    "https://github.com/wufly632/java-template",
-    "gitlab:myorg/*"
+    "https://github.com/wufly632/java-template"
 ]
 max_project_size = "10MB"
 timeout_seconds = 30
