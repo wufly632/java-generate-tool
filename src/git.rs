@@ -107,9 +107,9 @@ fn validate_repo_url(url: &str, config: &CodeupConfig) -> Result<(), String> {
     }
 
     // 验证路径前缀
-    // if !url.starts_with(&config.default_repo_prefix) {
-    //     return Err("Repository path not allowed".into());
-    // }
+    if !url.starts_with(&config.default_repo_prefix) {
+        return Err("Repository path not allowed".into());
+    }
 
     Ok(())
 }
