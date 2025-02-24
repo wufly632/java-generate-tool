@@ -41,7 +41,7 @@ pub async fn handle_generate_project(
         .map_err(|e| format!("Invalid path: {}", e))?;
 
     // 路径安全检查
-    security::validate_path(&target_dir, &app_config.security.allowed_directories)?;
+    // security::validate_path(&target_dir, &app_config.security.allowed_directories)?;
 
     // 以.拆分package_name
     let mut package_parts: Vec<&str> = req.package_name.split('.').collect();

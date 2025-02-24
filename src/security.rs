@@ -9,9 +9,9 @@ pub fn validate_path(
     let canonical = target.canonicalize()
         .map_err(|e| format!("Invalid path: {}", e))?;
 
-    // if allowed.iter().any(|p| canonical.starts_with(p)) {
-    //     Ok(())
-    // } else {
-    //     Err("Path not allowed".into())
-    // }
+    if allowed.iter().any(|p| canonical.starts_with(p)) {
+        Ok(())
+    } else {
+        Err("Path not allowed".into())
+    }
 }
