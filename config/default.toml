@@ -4,7 +4,7 @@ allowed_templates = [
 ]
 max_project_size = "10MB"
 timeout_seconds = 30
-default_target_dir = "/Users/wufei/www/rust/cargo-generate-service/output"
+default_target_dir = "./output"
 
 [codeup]
 default_repo_prefix = "https://codeup.aliyun.com/coraool/"

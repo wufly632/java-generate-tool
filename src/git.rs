@@ -28,13 +28,6 @@ pub async fn push_to_codeup(
 
     let branch_string = branch.to_string();
 
-    // 清理已存在的git配置
-    let _ = Command::new("rm")
-        .current_dir(project_path)
-        .args(["-rf", ".git"])
-        .status()
-        .await;
-
     let commands = [
         ("init", vec![]),
         ("config", vec!["user.name", "flynn"]),
@@ -65,13 +58,6 @@ pub async fn push_to_codeup(
 
 pub async fn clone_template(template_url: &str, target_dir: &Path, branch: &str) -> Result<(), String> {
     log::info!("Cloning template from {} to {:?}", template_url, target_dir);
-
-    // 清理已存在的git配置
-    let _ = Command::new("rm")
-        .current_dir(target_dir)
-        .args(["-rf", ".git"])
-        .status()
-        .await;
 
     let status = Command::new("git")
         .arg("clone")

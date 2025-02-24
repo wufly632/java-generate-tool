@@ -1,6 +1,5 @@
 use clap::{Parser, Args};
 use std::path::PathBuf;
-use serde_json::Value;
 
 #[derive(Parser)]
 #[command(name = "cargo-generate-service")]
@@ -53,6 +52,10 @@ pub struct GenerateArgs {
     /// Server port
     #[arg(long)]
     pub server_port: String,
+
+    /// auth_token
+    #[arg(long)]
+    pub auth_token: String,
 }
 
 impl GenerateArgs {
@@ -67,6 +70,7 @@ impl GenerateArgs {
             package_name: self.package_name,
             project_class: self.project_class,
             server_port: self.server_port,
+            auth_token: self.auth_token,
         }
     }
 }

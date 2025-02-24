@@ -17,6 +17,7 @@ pub struct GenerateRequest {
     pub package_name: String,
     pub project_class: String,
     pub server_port: String,
+    pub auth_token: String,
 }
 
 fn default_branch() -> String {
@@ -42,13 +43,51 @@ pub async fn handle_generate_project(
     // 路径安全检查
     security::validate_path(&target_dir, &app_config.security.allowed_directories)?;
 
-    // 克隆模板仓库
-    git::clone_template(&req.template, &target_dir, &req.branch).await?;
+    // 以.拆分package_name
+    let mut package_parts: Vec<&str> = req.package_name.split('.').collect();
+    let _base_package = package_parts.first()
+        .ok_or_else(|| format!("Invalid package name format"))?;
 
-    // 如果提供了CodeUp仓库，则设置远程仓库
-    if let Some(codeup_repo) = req.codeup_repo {
-        git::setup_codeup_remote(&target_dir, &codeup_repo, &app_config.codeup).await?;
+    // 执行cargo generate
+    let mut cmd_args = vec![
+        "generate".to_string(),
+        "-g".to_string(), req.template.clone(),
+        "-b".to_string(), format!("package{}", package_parts.len().to_string()),
+        "--name".to_string(), req.name.clone(),
+        "--destination".to_string(), target_dir.display().to_string(),
+        "--define".to_string(), format!("project_name={}", req.name),
+        "--define".to_string(), format!("package_name={}", req.package_name),
+        "--define".to_string(), format!("project_class={}", req.project_class),
+        "--define".to_string(), format!("server_port={}", req.server_port),
+        "--define".to_string(), format!("package_dir={}", req.package_name.replace(".", "/"))
+    ];
+    for (i, part) in package_parts.iter_mut().enumerate() {
+        cmd_args.push("--define".to_string());
+        cmd_args.push(format!("package_dir{}={}", (i+1).to_string(), part.to_string()));
     }
 
+    log::info!("Executing cargo command: cargo {}", cmd_args.join(" "));
+    
+    let output = tokio::process::Command::new("cargo")
+        .args(&cmd_args)
+        .kill_on_drop(true)
+        .output()
+        .await
+        .map_err(|e| format!("Failed to execute cargo command: {}", e))?;
+
+    if !output.status.success() {
+        return Err(format!("Cargo command failed: {}", String::from_utf8_lossy(&output.stderr)).into());
+    }
+
+    // 提交到Codeup
+    if let Some(repo_url) = &req.codeup_repo {
+        git::push_to_codeup(
+            &target_dir.join(&req.name),
+            repo_url,
+            &req.branch,
+            &req.auth_token,
+            &app_config.codeup
+        ).await.map_err(|e| format!("Codeup push failed: {}", e))?;
+    }
     Ok(())
 }
