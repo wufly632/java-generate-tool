@@ -1,1 +1,0 @@
-/Users/wufei/www/rust/cargo-generate-service/target/debug/cargo-generate-service: /Users/wufei/www/rust/cargo-generate-service/src/configs.rs /Users/wufei/www/rust/cargo-generate-service/src/git.rs /Users/wufei/www/rust/cargo-generate-service/src/handlers.rs /Users/wufei/www/rust/cargo-generate-service/src/main.rs /Users/wufei/www/rust/cargo-generate-service/src/security.rs
