@@ -8,4 +8,5 @@ RUN rustup target add x86_64-unknown-linux-musl
 WORKDIR /app
 COPY . .
 
+RUN cargo install cargo-generate
 RUN cargo build --release --target=x86_64-unknown-linux-musl
