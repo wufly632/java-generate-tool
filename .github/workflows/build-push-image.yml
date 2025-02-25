@@ -16,8 +16,12 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
+      - name: Get Commit SHA
+        id: sha
+        run: echo "short_sha=${GITHUB_SHA::7}" >> $GITHUB_OUTPUT
+
       - name: Build and Push Image
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: wufly632/cargo-generate:202502251114 # 替换为你的镜像标签
+          tags: wufly632/cargo-generate:${{ steps.sha.outputs.short_sha }} # 替换为你的镜像标签
