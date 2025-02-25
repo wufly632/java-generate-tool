@@ -6,10 +6,10 @@ FROM rust:1.85.0
 RUN cargo install cargo-generate
 
 # 添加 musl 目标
-RUN rustup target add x86_64-unknown-linux-musl
+# RUN rustup target add x86_64-unknown-linux-musl
 
 WORKDIR /app
 COPY . .
 
 RUN mkdir -p output
-RUN cargo build --release --target=x86_64-unknown-linux-musl
+RUN cargo build --release
