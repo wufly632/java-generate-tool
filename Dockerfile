@@ -1,4 +1,4 @@
-FROM rust:1.85.0
+FROM rust:1.85.0-alpine
 
 RUN apk add --no-cache musl-dev
 
@@ -9,5 +9,3 @@ WORKDIR /app
 COPY . .
 
 RUN cargo build --release --target=x86_64-unknown-linux-musl
-
-RUN cargo build --release
