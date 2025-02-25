@@ -12,5 +12,4 @@ WORKDIR /app
 COPY . .
 
 RUN mkdir -p output
-RUN apk add cargo-generate
 RUN cargo build --release --target=x86_64-unknown-linux-musl
