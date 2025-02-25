@@ -3,10 +3,10 @@ name: Cross Compile
 on:
   push:
     branches:
-      - main
+      - mainddd
   pull_request:
     branches:
-      - main
+      - mainddd
 
 jobs:
   build:
