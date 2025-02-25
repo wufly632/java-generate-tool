@@ -20,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: wufly632/cargo-generate:latest # 替换为你的镜像标签
+          tags: wufly632/cargo-generate:202502251114 # 替换为你的镜像标签
