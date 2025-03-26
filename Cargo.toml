@@ -14,3 +14,4 @@ url = "2.5"
 env_logger = "0.10"
 log = "0.4"
 cargo-generate = "0.22.1"
+walkdir = "2" # Added for recursive directory search

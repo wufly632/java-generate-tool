@@ -53,6 +53,10 @@ pub struct GenerateArgs {
     #[arg(long)]
     pub server_port: String,
 
+    /// Server port
+    #[arg(long)]
+    pub nacos_data_id: String,
+
     /// auth_token
     #[arg(long)]
     pub auth_token: String,
@@ -70,6 +74,7 @@ impl GenerateArgs {
             package_name: self.package_name,
             project_class: self.project_class,
             server_port: self.server_port,
+            nacos_data_id: self.nacos_data_id,
             auth_token: self.auth_token,
         }
     }
