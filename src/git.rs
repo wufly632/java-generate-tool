@@ -35,8 +35,8 @@ pub async fn push_to_codeup(
         ("add", vec!["."]),
         ("commit", vec!["-m", "Initial commit"]),
         ("remote", vec!["add", "origin", &repo_with_token]),
-        ("checkout", vec!["-b", "main"]),
-        ("push", vec!["-u", "origin", "main"]),
+        ("checkout", vec!["-b", "master"]),
+        ("push", vec!["-u", "origin", "master"]),
     ];
 
     for (cmd, args) in commands {
