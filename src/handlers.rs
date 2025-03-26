@@ -29,9 +29,9 @@ pub async fn handle_generate_project(
     app_config: &AppConfig,
 ) -> Result<(), Box<dyn std::error::Error>> {
     // 验证模板白名单
-    if !app_config.generate.allowed_templates.contains(&req.template) {
-        return Err("Template not allowed".into());
-    }
+    // if !app_config.generate.allowed_templates.contains(&req.template) {
+    //     return Err("Template not allowed".into());
+    // }
 
     // 解析目标路径
     let target_dir = req.target_dir
