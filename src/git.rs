@@ -31,7 +31,7 @@ pub async fn push_to_codeup(
     let commands = [
         ("init", vec![]),
         ("config", vec!["user.name", "flynn"]),
-        ("config", vec!["user.email", "fei.wu@coraool.com"]),
+        ("config", vec!["user.email", "fei.wu@coraool.ai"]),
         ("add", vec!["."]),
         ("commit", vec!["-m", "Initial commit"]),
         ("remote", vec!["add", "origin", &repo_with_token]),
